@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "400931778526",
+    "project_id": "semester-project-8bcce",
+    "storage_bucket": "semester-project-8bcce.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:400931778526:android:230fdaa1d5fff79b17f74f",
+        "android_client_info": {
+          "package_name": "com.example.event_management_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCyZCLuhXwbiDpKRJj1hIYSExc30A1U-aE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
