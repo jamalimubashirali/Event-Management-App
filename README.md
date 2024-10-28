@@ -41,13 +41,12 @@ University campuses host numerous events like seminars, workshops, and social ga
 The **Campus Event Management Application** provides:
 1. A single platform to view all upcoming campus events.
 2. Real-time updates for last-minute changes.
-3. RSVP and notification features for event tracking and engagement.
+3. RSVP features for event tracking and engagement.
 
 **Features**:
 - **Event Listings**: Lists all upcoming events with key details.
 - **Event Details**: Provides in-depth event descriptions and RSVP options.
 - **Organizer Dashboard**: Allows organizers to manage events and track attendance.
-- **Push Notifications**: Keeps users informed of updates.
 - **Responsive Design**: Adapts seamlessly across devices and screen sizes.
 
 ---
@@ -77,16 +76,15 @@ Designed with responsive layouts, the app adapts to various screen sizes, provid
 
 ## Data Storage
 
-The application uses **Appwrite** for cloud storage, chosen for its flexibility, scalability, and control over data. Appwrite offers secure and customizable database options, ideal for managing sensitive user and event data.
+The application uses **Appwrite** for cloud storage due to its flexibility, scalability, and secure data handling. Appwrite enables secure storage and management of both user and event data, making it ideal for a university event management application.
 
-### Backend Choice: Appwrite vs. Firebase
+### Backend Choice: Appwrite
 
-**Appwrite** was chosen over Firebase because:
-- **Customization**: Appwrite’s open-source nature allows for greater customization, ideal for specific campus needs.
-- **Cost Efficiency**: Appwrite’s self-hosting options provide a cost-effective solution.
-- **Data Control**: Appwrite offers secure APIs, ensuring data integrity and user privacy.
-
-While Firebase provides robust real-time data features, Appwrite’s customization and control over deployment are more suitable for a project requiring scalability and low cost.
+**Appwrite** was selected because it offers:
+- **High Customization**: Appwrite’s open-source structure provides a level of customization suitable for applications with specific data handling requirements, like campus events.
+- **Data Privacy and Control**: With secure APIs and a flexible database, Appwrite ensures data integrity and compliance with privacy standards.
+- **Scalability**: Appwrite supports an expanding user base, efficiently handling high user demand and data storage as the application grows.
+- **Extensive RESTful APIs**: Appwrite’s API-driven model simplifies data management and integration, making development faster and more organized.
 
 ---
 
@@ -106,9 +104,6 @@ State is managed directly within Flutter, using simple and efficient techniques 
    - **Purpose**: Allows users to upload images, enhancing event visual content.
    - **Justification**: Simplifies image selection for both organizers and attendees, supporting visual event marketing.
 
-### Flutter Local Notifications
-   - **Purpose**: Sends push notifications to inform users of updates or changes.
-   - **Justification**: Keeps users informed and engaged, essential for effective event management.
 
 ---
 
@@ -122,9 +117,6 @@ State is managed directly within Flutter, using simple and efficient techniques 
    - **Issue**: Overlapping elements on smaller screens.
    - **Solution**: Adjusted layouts using `MediaQuery` and `LayoutBuilder`.
 
-3. **Notification Delays**:
-   - **Issue**: Inconsistent notification timings.
-   - **Solution**: Updated notification settings for prompt delivery.
 
 ---
 
