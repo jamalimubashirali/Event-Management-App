@@ -131,7 +131,7 @@ State is managed directly within Flutter, using simple and efficient techniques 
 
 ## Project Links
 
-- **GitHub Repository**: [https://github.com/jamalimubashirali/MAD-Final-Project](#)
+- **GitHub Repository**: [[https://github.com/jamalimubashirali/MAD-Final-Project](https://github.com/jamalimubashirali/Event-Management-App)](#)
 
 ---
 
